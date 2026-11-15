@@ -1,0 +1,4 @@
+# Copy this file to application-local.properties (it is gitignored) and fill in your values
+spring.datasource.password=YOUR_MYSQL_PASSWORD
+# Generate with: openssl rand -base64 48
+app.jwt.secret=REPLACE_WITH_A_LONG_RANDOM_STRING
